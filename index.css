@@ -62,7 +62,7 @@ body{
     align-items: center;
 }
 
-@media screen and (max-width: 56.25rem){
+@media screen and (max-width: 868px){
     .card{
         display: flex;
         background-color:#061b25bf;
@@ -79,5 +79,35 @@ body{
         color: white;
         padding-left: 7rem;
     
+    }
+}
+
+@media screen and (max-width: 375px){
+    .card{
+        display: flex;
+        background-color:#061b25bf;
+        margin-top: 1.7rem;
+        width: 20rem;
+        height: 3.4rem;
+        border-radius: 0.7rem;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .h1{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+        padding-left: 2rem;
+        font-size: 1.5rem;
+    
+    }
+
+    .img{
+        display: flex;
+        max-width: 10%;
+        max-height: 10%;
+        border-radius: 100%;
+        justify-content: center;
+        border: 2px solid black;
     }
 }
