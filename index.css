@@ -82,7 +82,7 @@ body{
     }
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 300px){
     .card{
         display: flex;
         background-color:#061b25bf;
